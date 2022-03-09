@@ -371,14 +371,6 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .image-container-inner img {
-    border-radius: 0rem;
-  }
-
-  .album-image-container img {
-    border-radius: 0rem;
-  }
-
   .album {
     height: 100%;
     width: 250px;
