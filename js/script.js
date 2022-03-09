@@ -68,7 +68,7 @@ const showAlbum = (allAlbums) => {
     div.innerHTML = `
         <div class="album-image-container">
           <img
-            src="${album.strAlbumThumb}"
+            src="${album.strAlbumThumb ? album.strAlbumThumb : 'https://www.seekpng.com/png/detail/966-9665317_placeholder-image-person-jpg.png'}"
             alt=""
           />
         </div>
