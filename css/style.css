@@ -41,7 +41,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 30px 50px;
+  padding: 3rem 50px;
 }
 
 header h1 {
@@ -101,7 +101,7 @@ a{
 
 .artist-card-container {
   width: 70%;
-  margin: 60px auto;
+  margin: 30px auto;
   display: grid;
   gap: 40px 0;
   grid-template-columns: repeat(4, 1fr);
@@ -315,7 +315,7 @@ nav a:hover {
 
 #theme-toggler{
   position: absolute;
-  top: 1.5rem;
+  top: 2.5rem;
   right: 2rem;
   height: 3rem;
   width: 3rem;
@@ -337,6 +337,7 @@ nav a:hover {
 @media screen and (max-width: 490px) {
 header {
     display: block;
+    padding: 2rem 50px;
   }
 
   header h1{
